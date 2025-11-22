@@ -1,0 +1,150 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    padding: 2rem 0;
+}
+
+/* Main Testimonials Section */
+.testimonials {
+    max-width: 900px;
+    margin: 5rem auto;
+}
+
+/* Responsive Grid Layout */
+.first-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+/* Black Comment Box */
+.comment-box {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+
+/* Spacing under first comment */
+.bottom-first-comment {
+    padding-top: 1.5rem;
+}
+
+/* Avatar + Name Layout */
+.imgandname {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* First avatar image */
+.first-img {
+    max-width: 45px;
+    height: auto;
+}
+
+/* Second Testimonial Card Styling */
+.second-comment-square {
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+/* Layout for second avatar + name */
+.second-imgandname {
+    display: flex;
+    padding: 5.5rem 1.5rem 0rem 1.5rem;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Second avatar image */
+.second-img {
+    max-width: 45px;
+    height: auto;
+}
+
+
+.second-grid-container{
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) 2fr;
+    gap: 30px;
+    margin: 4rem auto;
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.second-column{
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 20px;
+}
+
+.rating{
+    color: white;
+    background-color: white;
+    width: 150px;
+    height: auto;
+}
+
+.jobtitle{
+    padding: 1rem 0;
+    color: grey;
+}
+
+.last-comment-box{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5rem;
+}
+
+.last-comment-box .comment{
+    font-size: 25px;
+}
+
+.avatar-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 4rem 0 1rem 0;
+}
+
+.image-one{
+    max-width: 40px;
+    height: auto;
+}
+
+.image-two{
+    max-width: 50px;
+    height: auto;
+}
+
+.image-three{
+    max-width: 40px;
+    height: auto;
+}
+
+.avatar-name{
+    text-align: center;
+}
+
+.symbol{
+    font-size: 20px;
+    font-weight: 700;
+}
