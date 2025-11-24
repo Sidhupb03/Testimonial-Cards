@@ -4,9 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 
-.heading{
+/* Heading */
+.heading {
     text-align: center;
     font-size: 50px;
     padding: 2rem 0;
@@ -16,9 +18,10 @@
 .testimonials {
     max-width: 900px;
     margin: 5rem auto;
+    padding: 0 1rem;
 }
 
-/* Responsive Grid Layout */
+/* First Grid Layout */
 .first-grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -34,12 +37,12 @@
     padding: 1.5rem;
 }
 
-/* Spacing under first comment */
+/* Spacing for Bottom Text */
 .bottom-first-comment {
     padding-top: 1.5rem;
 }
 
-/* Avatar + Name Layout */
+/* Avatar + Name */
 .imgandname {
     padding: 1.5rem;
     display: flex;
@@ -47,77 +50,76 @@
     gap: 15px;
 }
 
-/* First avatar image */
 .first-img {
     max-width: 45px;
     height: auto;
 }
 
-/* Second Testimonial Card Styling */
+/* Second Comment Card */
 .second-comment-square {
     padding: 2rem;
     border: 2px solid black;
     border-radius: 20px;
 }
 
-/* Layout for second avatar + name */
+/* Layout for second image + name */
 .second-imgandname {
     display: flex;
-    padding: 5.5rem 1.5rem 0rem 1.5rem;
+    flex-wrap: wrap;
+    padding: 5.5rem 1.5rem 0 1.5rem;
     align-items: center;
     gap: 15px;
 }
 
-/* Second avatar image */
 .second-img {
     max-width: 45px;
     height: auto;
 }
 
-
-.second-grid-container{
+/* Second Grid for Portrait + Text */
+.second-grid-container {
     display: grid;
-    grid-template-columns: minmax(200px, 1fr) 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     margin: 4rem auto;
 }
 
-.img{
+.second-grid-container .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
     max-width: 100%;
     height: auto;
     border-radius: 20px;
 }
 
-.second-column{
+.second-column {
     background-color: black;
     color: white;
     padding: 1.5rem;
     border-radius: 20px;
 }
 
-.rating{
-    color: white;
-    background-color: white;
-    width: 150px;
-    height: auto;
-}
-
-.jobtitle{
+.jobtitle {
     padding: 1rem 0;
     color: grey;
 }
 
-.last-comment-box{
+/* Last Comment Box */
+.last-comment-box {
     border: 2px solid black;
     border-radius: 20px;
     padding: 5rem;
 }
 
-.last-comment-box .comment{
+.last-comment-box .comment {
     font-size: 25px;
 }
 
-.avatar-images{
+.avatar-images {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,26 +127,21 @@
     padding: 4rem 0 1rem 0;
 }
 
-.image-one{
-    max-width: 40px;
+.image-one,
+.image-two,
+.image-three {
     height: auto;
 }
 
-.image-two{
-    max-width: 50px;
-    height: auto;
-}
+.image-one { max-width: 40px; }
+.image-two { max-width: 50px; }
+.image-three { max-width: 40px; }
 
-.image-three{
-    max-width: 40px;
-    height: auto;
-}
-
-.avatar-name{
+.avatar-name {
     text-align: center;
 }
 
-.symbol{
+.symbol {
     font-size: 20px;
     font-weight: 700;
 }
